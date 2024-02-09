@@ -1,0 +1,232 @@
+/* .App {
+  text-align: center; 
+}*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.feature-titles,
+p {
+  color: #2d388c;
+}
+
+.header-top {
+  background-color: #fff;
+}
+
+.sunwest-header-logo {
+  /* position: fixed;
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%; */
+  margin-left: 43%;
+  margin-top: 10px;
+  width: 15%;
+}
+
+.greeting-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.greeting-title {
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+}
+
+.greeting-description {
+  letter-spacing: 0.5px;
+}
+
+.descr-cta {
+  margin-top: 10px;
+}
+
+.call-to-action {
+  position: absolute;
+  top: 8%;
+  right: 10%;
+}
+
+.inquiry-section {
+  /* display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+     flex-wrap: wrap; */
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 10px 20px;
+  border: 1px solid #2ba8e0;
+}
+
+.inquiry-subcontainer {
+  margin-top: 15px;
+}
+
+.inquiry-policy-txt {
+  color: #000;
+  font-size: smaller;
+  text-align: center;
+}
+
+.inquiry-hyperLink {
+  color: #3b04fb;
+}
+
+#fName,
+#lName,
+#email,
+#tel {
+  font-size: 1rem;
+  padding: 0.4rem 0.2rem 0.2rem 0.2rem;
+  width: 45%;
+  letter-spacing: 0.2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 2px solid floralwhite;
+  border-radius: 4px;
+}
+
+#lName,
+#tel {
+  margin-left: 10px;
+}
+
+#detail-descr {
+  width: 90%;
+  letter-spacing: 0.2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+  margin-left: -8px;
+  border: 2px solid floralwhite;
+}
+
+#tell-more-btn {
+  background-color: #3b04fb;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 45%;
+}
+
+.main-features-imgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 35%;
+}
+
+.detailedFeaturesSection {
+  /* margin-top: 40px;
+  display: flex; */
+}
+
+.chatbot-feat,
+.tru-approval,
+.house-money,
+.expansive-productline,
+.alltime-processing,
+.manual-underwritting {
+  /* flex-grow: 1;
+  display: flex; */
+}
+
+.detailFeatureFooterNote {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.detailedSectionHyperlink {
+  color: #3b04fb;
+}
+
+.featute-txt {
+  color: #2d388c;
+}
+
+footer {
+  background-color: darkblue;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-text {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.privacy-notes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  padding-right: 8px;
+}
+
+.footer-socials {
+  display: flex;
+  padding: 10px;
+}
+
+.footer-licence-section {
+  margin-bottom: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-one,
+.footer-two,
+.footer-three {
+  margin-left: 2rem;
+}
+
+.footer-two,
+.footer-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunwest-social {
+  margin-right: 10px;
+}
+
+.footerHyperLink {
+  color: #2ba8e0 !important;
+}
